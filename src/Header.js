@@ -11,25 +11,18 @@ function Header() {
                 <div className="inner">
                     <h1>
                         <Link to='/'>
-                            <img src={process.env.PUBLIC_URL + "/assets/images/small_logo.png"} alt="" />
+                            <a href="/">portfolio</a>
                         </Link>
                     </h1>
                     <nav>
                         <NavMenu />
                     </nav>
                     <div className='icon'>
-                        <a href=""><i className='xi-bars'></i></a>
+                        +9<a href="">get in touch</a>
                     </div>
                 </div>
             </div>
 
-
-
-            <div className="main_header">
-                <Link to='/'>
-                    <img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="" />
-                </Link>
-            </div>
         </header>
     )
 }
