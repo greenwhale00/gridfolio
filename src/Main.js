@@ -9,7 +9,7 @@ const Main = () => {
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/one.jpg"} alt="" />
                             <div className="frdes">
-                                <p>HOME</p>
+                                <p>Hey, I'm Hye-lim</p>
                             </div>
                         </a>
                     </div>
@@ -17,7 +17,7 @@ const Main = () => {
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/two.jpg"} alt="" />
                             <div className="frdes">
-                                <p>BEAUTY</p>
+                                <p>see my resume</p>
                             </div>
                         </a>
                     </div>
@@ -25,7 +25,7 @@ const Main = () => {
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/three.jpg"} alt="" />
                             <div className="frdes">
-                                <p>FOOD</p>
+                                <p>kinfolk</p>
                             </div>
                         </a>
                     </div>
@@ -33,7 +33,7 @@ const Main = () => {
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/four.jpg"} alt="" />
                             <div className="frdes">
-                                <p>BOOKS</p>
+                                <p>Zegna</p>
                             </div>
                         </a>
                     </div>
@@ -41,7 +41,7 @@ const Main = () => {
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/five.jpg"} alt="" />
                             <div className="frdes">
-                                <p>GARDEN</p>
+                                <p>balmuda</p>
                             </div>
                         </a>
                     </div>
@@ -49,7 +49,23 @@ const Main = () => {
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/six.jpg"} alt="" />
                             <div className="frdes">
-                                <p>GIFT</p>
+                                <p>하나 더</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="seven name">
+                        <a href="">
+                            <img src={process.env.PUBLIC_URL + "/assets/images/six.jpg"} alt="" />
+                            <div className="frdes">
+                                <p>Get in touch now</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="eight name">
+                        <a href="">
+                            <img src={process.env.PUBLIC_URL + "/assets/images/six.jpg"} alt="" />
+                            <div className="frdes">
+                                <p>what i do</p>
                             </div>
                         </a>
                     </div>

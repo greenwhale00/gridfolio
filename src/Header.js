@@ -7,21 +7,20 @@ function Header() {
         <header className='Header'>
 
 
-            <div className="top_header">
-                <div className="inner">
-                    <h1>
-                        <Link to='/'>
-                            <a href="/">portfolio</a>
-                        </Link>
-                    </h1>
-                    <nav>
-                        <NavMenu />
-                    </nav>
-                    <div className='icon'>
-                        +9<a href="">get in touch</a>
-                    </div>
+            <div className="inner">
+                <h1>
+                    <Link to='/'>
+                        <a href="/">portfolio</a>
+                    </Link>
+                </h1>
+                <nav>
+                    <NavMenu />
+                </nav>
+                <div className='icon'>
+                    <a href="">get in touch</a>
                 </div>
             </div>
+
 
         </header>
     )
