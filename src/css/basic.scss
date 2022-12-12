@@ -5,7 +5,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
-    background-color: #FFFBF8;
+    background-color: #111;
 }
 
 .Wrapper {
@@ -13,7 +13,7 @@ body {
 }
 
 .inner {
-    width: 1780px;
+    width: calc(100% - 140px);
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ body {
 .Header {
 
     margin-bottom: 90px;
-    color: #191919;
+    color: #fff;
 
     .inner {
         line-height: 110px;
@@ -64,11 +64,12 @@ body {
 .Main {
     .name {
         position: relative;
-        background-color: #fff;
+        background-color: #262626;
         border-radius: 50px;
+        text-align: center;
 
         .frdes {
-            color: #181818;
+            color: #f4f4f4;
             font-size: 30px;
             position: absolute;
             inset: 50% auto auto 50%;
@@ -151,6 +152,7 @@ body {
 .Footer {
     
     align-items: center;
+    color: #fff;
 
     .inner {
         line-height: 30px;
@@ -169,7 +171,7 @@ body {
         ul {
             display: flex;
             gap: 30px;
-            font-weight: 900;
+            font-weight: 300;
         }
 
 
