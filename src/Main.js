@@ -1,26 +1,30 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Main = () => {
     return (
         <section className='Main'>
             <div className="inner">
                 <div className="whole">
+
                     <div class="one name">
-                        <a href="">
+                        <Link to="/about">
                             <img src={process.env.PUBLIC_URL + "/assets/images/one.jpg"} alt="" />
                             <div className="frdes">
                                 <p>Hey, I'm Hye-lim</p>
                             </div>
-                        </a>
+                        </Link>
                     </div>
+
                     <div class="two name">
-                        <a href="">
+                        <Link to="/resume">
                             <img src={process.env.PUBLIC_URL + "/assets/images/two.jpg"} alt="" />
                             <div className="frdes">
                                 <p>see my resume</p>
                             </div>
-                        </a>
+                        </Link>
                     </div>
+
                     <div class="three name">
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/three.jpg"} alt="" />
@@ -29,6 +33,7 @@ const Main = () => {
                             </div>
                         </a>
                     </div>
+
                     <div class="four name">
                         <a href="">
                             <img src={process.env.PUBLIC_URL + "/assets/images/four.jpg"} alt="" />
@@ -71,7 +76,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 

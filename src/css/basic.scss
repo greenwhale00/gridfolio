@@ -1,10 +1,11 @@
 * {
-    outline: 1px dashed lime;
+    outline: 1px dashed pink;
 }
 
 body {
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFFBF8;
 }
 
 .Wrapper {
@@ -19,13 +20,19 @@ body {
 
 .Header {
 
+    margin-bottom: 90px;
+    color: #191919;
+
     .inner {
-        line-height: 90px;
+        line-height: 110px;
         display: flex;
         justify-content: space-between;
 
         h1 {
             width: 200px;
+            font-size: 21px;
+            font-weight: 700;
+            font-style: italic;
         }
 
         ul {
@@ -36,18 +43,18 @@ body {
         }
 
         .icon {             
-            
+            width: 200px; 
            cursor: pointer;
 
             a {
                 display: inline-block;
-                font-size: 25px;
+                font-size: 17   px;
                 font-weight: 500;
-                padding: 5px 45px;
+                padding: 1px 45px;
                 border-radius: 62px;
-                color: #fff;
+                color: #181818;
                 text-align: center; 
-                background-color: #181818;                
+                background-color: #fff;                
             }
         }
     }
@@ -57,7 +64,7 @@ body {
 .Main {
     .name {
         position: relative;
-        background-color: antiquewhite;
+        background-color: #fff;
         border-radius: 50px;
 
         .frdes {
@@ -133,16 +140,7 @@ body {
         height: 400px;
     }
 
-
-
-
-
-
-
-
     }
-
-    
 
 }
 
@@ -151,29 +149,29 @@ body {
 
 
 .Footer {
+    
+    align-items: center;
 
     .inner {
-        border-top: 2px solid #000;
-        padding-top: 15px;
+        line-height: 30px;
+        padding-top: 150px;
         padding-bottom: 15px;
         display: flex;
-        justify-content: space-between;
+        
+       
+        .box {
+            margin-right: 30px;
+            font-size: 21px;
+            font-weight: 700;
+            font-style: italic;
+        }
 
         ul {
             display: flex;
             gap: 30px;
-            font-weight: 600;
+            font-weight: 900;
         }
 
-        .left {
-            font-family: 'Pretendard';
-            gap: 15px;
-            font-size: 13px;
 
-        }
-
-        .sns {
-            font-weight: 600;
-        }
     }
 }
