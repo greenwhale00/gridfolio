@@ -22,6 +22,7 @@ body {
 
     margin-bottom: 90px;
     color: #fff;
+ 
 
     .inner {
         line-height: 110px;
@@ -33,6 +34,7 @@ body {
             font-size: 21px;
             font-weight: 700;
             font-style: italic;
+            color: #70F173;
         }
 
         ul {
@@ -43,17 +45,16 @@ body {
         }
 
         .icon {             
-            width: 200px; 
+           
            cursor: pointer;
 
             a {
-                display: inline-block;
-                font-size: 17   px;
+               
+                font-size: 17px;
                 font-weight: 500;
-                padding: 1px 45px;
+                padding: 15px 45px;
                 border-radius: 62px;
                 color: #181818;
-                text-align: center; 
                 background-color: #fff;                
             }
         }
@@ -162,6 +163,7 @@ body {
         
        
         .box {
+            color: #70F173;
             margin-right: 30px;
             font-size: 21px;
             font-weight: 700;
