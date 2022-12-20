@@ -4,6 +4,9 @@ import { Route, Routes } from 'react-router-dom';
 import Wrapper from './Wrapper';
 import Header from './Header';
 import Main from './Main';
+import About from './About';
+import Resume from './Resume';
+import Works from './Works';
 import Footer from './Footer';
 
 import './css/basic.scss';
@@ -16,8 +19,10 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Main />} />
-        {/* <Route path='/sub01' element={<Magslide />} />
-        <Route path='/sub02' element={<Store />} />*/}
+        <Route path='/about' element={<About />} />
+        <Route path='/works' element={<Works />} />
+        <Route path='/resume' element={<Resume />} />
+
       </Routes>
       <Footer />
     </Wrapper>

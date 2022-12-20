@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import NavMenu from './NavMenu';
 
+
 function Header() {
     return (
         <header className='Header'>
