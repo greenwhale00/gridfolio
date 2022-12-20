@@ -10,36 +10,38 @@ const Main = () => {
                 <div className="whole">
 
                     <Link to="/about" className='one name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/face.png"} alt="" />
-                        <div className="frdes">
-                            Hi.  I’m Hye-lim.
+                        <div className="frdes title">
+                            <img src={process.env.PUBLIC_URL + "/assets/face.png"} className="face" alt="" />
+                            <span>Hi.  I’m Hye-lim.</span>
                         </div>
                     </Link>
 
                     <Link to="/resume" className='two name'>
-                        <p className='frdes'>Learn about me</p>
-                        <img src={process.env.PUBLIC_URL + "/assets/letter.png"} alt="" />
-                        <div className="frdes">See my resume</div>
+                        <div className="des">
+                            <span>Learn about me</span>
+                            <p>See my resume</p>
+                        </div>
+
                     </Link>
 
                     <Link to="/" className='three name'>
                         <img src={process.env.PUBLIC_URL + "/assets/zegna.webp"} alt="" />
-                        <div className="frdes">zegna</div>
+                        <div className="frdes"></div>
                     </Link>
 
                     <Link to="/" className='four name'>
                         <img src={process.env.PUBLIC_URL + "/assets/kinfolk.jpg"} alt="" />
-                        <div className="frdes">kinfolk</div>
+                        <div className="frdes"></div>
                     </Link>
 
                     <Link to="/" className='five name'>
                         <img src={process.env.PUBLIC_URL + "/assets/balmuda.jpg"} alt="" />
-                        <div className="frdes">balumuda</div>
+                        <div className="frdes"></div>
                     </Link>
 
                     <Link to="/" className='six name'>
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
-                        <div className="frdes">모름</div>
+                        <div className="frdes"></div>
                     </Link>
 
                     <Link to="/" className='seven name'>
