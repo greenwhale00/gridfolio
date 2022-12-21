@@ -22,6 +22,7 @@ body {
 
     margin-bottom: 90px;
     color: #fff;
+  
  
 
     .inner {
@@ -40,8 +41,8 @@ body {
         ul {
             display: flex;
             gap: 40px;
-            font-size: 25px;
-            font-weight: 500;
+            font-size: 19px;
+            font-weight: 600;
         }
 
         .icon {             
@@ -123,17 +124,25 @@ outline: 1px dashed lime;
 
         .two {
             .des{
-
                 position: absolute;
                 inset: auto auto 15% 15%;
 
-p {
-    font-size: 30px;
-font-weight: 700;}
+                span {
+                    display: block;
+                    font-size: 19px;
+                    font-weight: 100;
+                    margin-bottom: 10%;
+                }
+
+                p {
+                    font-size: 30px;
+                    font-weight: 700;
+                }
 
 
 
             }
+
             grid-column: 3 / 4;
             grid-row: 1 / 2;
             overflow: hidden;
