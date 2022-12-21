@@ -3,13 +3,22 @@ import { Link } from 'react-router-dom';
 
 const Works = () => {
     return (
+
         <section className='Works'>
 
             <div className="inner">
-                All Works
+                <p className="first">
+                    All Works
+                </p>
             </div>
 
+
             <div className="inner">
+
+                <p className="first">
+                    All Works
+                </p>
+
 
                 <div className="whole">
 

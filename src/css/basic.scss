@@ -20,7 +20,7 @@ body {
 
 .Header {
 
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     color: #fff;
   
  
@@ -228,9 +228,32 @@ outline: 1px dashed lime;
     color: #f4f4f4;
 }
 
+
 .Works {
-    color: #f4f4f4;
+    outline: 1px dashed lime;
+    
+
+    .inner {
+        outline: 1px dashed lime;
+        padding: 0;
+
+         .first {
+            outline: 1px dashed lime;
+            font-size: 300px;
+            font-weight: 900;
+            text-align: center;
+            color: #262626;
+        }
+    }
+
+   
+
+
+
+
+
 }
+
 
 .Resume {
     color: #f4f4f4;
