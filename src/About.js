@@ -29,6 +29,20 @@ const About = () => {
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
                     </Link>
 
+                    <Link to="/" className='five name'>
+                        <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
+                    </Link>
+
+                    <Link to="/" className='six name'>
+                        <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
+                    </Link>
+
+                    <Link to="/" className='seven name'>
+                        <div className="des">
+                            <span>Learn about me</span>
+                            <p>See my resume</p>
+                        </div>
+                    </Link>
 
 
                 </div>
