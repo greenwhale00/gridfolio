@@ -1,6 +1,6 @@
-* {
-    outline: 1px dashed pink;
-}
+// * {
+//     outline: 1px dashed pink;
+// }
 
 body {
     overflow-x: hidden;
@@ -68,7 +68,7 @@ body {
         position: relative;
         background-color: #262626;
         border-radius: 50px;
-        outline: 1px dashed lime;
+        //outline: 1px dashed lime;
         
 
         .frdes {
@@ -83,16 +83,16 @@ body {
 
 
     .whole {
-outline: 1px dashed lime;
+        // outline: 1px dashed lime;
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 30px;
         grid-auto-rows: minmax(100px, auto);
         
-        a {
-            outline: 1px dashed lime;     
-        }
+        // a {
+        //     outline: 1px dashed lime;     
+        // }
   
 
 
@@ -230,15 +230,15 @@ outline: 1px dashed lime;
 
 
 .Works {
-    outline: 1px dashed lime;
+   
     
 
     .inner {
-        outline: 1px dashed lime;
+        //outline: 1px dashed lime;
         padding: 0;
 
          .first {
-            outline: 1px dashed lime;
+            // outline: 1px dashed lime;
             font-size: 300px;
             font-weight: 900;
             text-align: center;
