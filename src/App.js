@@ -10,6 +10,7 @@ import Works from './Works';
 import Footer from './Footer';
 
 import './css/basic.scss';
+import Hyundai from './Hyundai';
 
 
 
@@ -17,13 +18,16 @@ function App() {
   return (
     <Wrapper>
       <Header />
+
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/about' element={<About />} />
         <Route path='/works' element={<Works />} />
         <Route path='/resume' element={<Resume />} />
+        <Route path='/hyundai' element={<Hyundai />} />
 
       </Routes>
+
       <Footer />
     </Wrapper>
   );
