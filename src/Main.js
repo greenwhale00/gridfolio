@@ -39,9 +39,9 @@ const Main = () => {
                         <div className="frdes"></div>
                     </a>
 
-                    <Link to="/" className='six name'>
+                    <Link to="/hyndai" className='six name'>
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
-                        <div className="frdes"></div>
+                        <div className="frdes">현대</div>
                     </Link>
 
                     <Link to="/" className='seven name'>
