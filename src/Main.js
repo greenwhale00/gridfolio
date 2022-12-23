@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-
+import Hyundai from './Hyundai';
+import { Route, Routes } from 'react-router-dom';
 const Main = () => {
     return (
         <section className='Main'>
@@ -39,7 +40,7 @@ const Main = () => {
                         <div className="frdes"></div>
                     </a>
 
-                    <Link to="/hyndai" className='six name'>
+                    <Link to="/hyundai" className='six name'>
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
                         <div className="frdes">현대</div>
                     </Link>

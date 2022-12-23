@@ -7,10 +7,13 @@ import Main from './Main';
 import About from './About';
 import Resume from './Resume';
 import Works from './Works';
+import Hyundai from './Hyundai';
 import Footer from './Footer';
 
+
 import './css/basic.scss';
-import Hyundai from './Hyundai';
+
+
 
 
 
@@ -25,7 +28,6 @@ function App() {
         <Route path='/works' element={<Works />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/hyundai' element={<Hyundai />} />
-
       </Routes>
 
       <Footer />
