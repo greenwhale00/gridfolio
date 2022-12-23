@@ -13,7 +13,7 @@ const About = () => {
 
                 <div className="whole">
 
-                    <Link to="/about" className='one name'>
+                    <Link to="https://greenwhale00.github.io/react_zegna/" className='one name'>
                         <img src={process.env.PUBLIC_URL + "/assets/zegna.webp"} alt="" />
                     </Link>
 

@@ -24,20 +24,20 @@ const Main = () => {
 
                     </Link>
 
-                    <Link to="/" className='three name'>
+                    <a href="https://greenwhale00.github.io/react_zegna/" target="_blank" className='three name'>
                         <img src={process.env.PUBLIC_URL + "/assets/zegna.webp"} alt="" />
                         <div className="frdes"></div>
-                    </Link>
+                    </a>
 
-                    <Link to="/" className='four name'>
+                    <a href="https://greenwhale00.github.io/kinfolk/" target="_blank" className='four name'>
                         <img src={process.env.PUBLIC_URL + "/assets/kinfolk.jpg"} alt="" />
                         <div className="frdes"></div>
-                    </Link>
+                    </a>
 
-                    <Link to="/" className='five name'>
+                    <a href="https://greenwhale00.github.io/balmuda/" target="_blank" className='five name'>
                         <img src={process.env.PUBLIC_URL + "/assets/balmuda.jpg"} alt="" />
                         <div className="frdes"></div>
-                    </Link>
+                    </a>
 
                     <Link to="/" className='six name'>
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
