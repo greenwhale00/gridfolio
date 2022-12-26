@@ -24,19 +24,19 @@ const Main = () => {
                         </div>
                     </Link>
 
-                    <a href="https://greenwhale00.github.io/react_zegna/" target="_blank" className='three name'>
+                    <a href="https://greenwhale00.github.io/react_zegna/" target="_blank" className='three name back'>
                         <img src={process.env.PUBLIC_URL + "/assets/zegna.webp"} alt="" />
-
+                        <div className='back_des'>dd</div>
                     </a>
 
-                    <a href="https://greenwhale00.github.io/kinfolk/" target="_blank" className='four name'>
+                    <a href="https://greenwhale00.github.io/kinfolk/" target="_blank" className='four name back'>
                         <img src={process.env.PUBLIC_URL + "/assets/kinfolk.jpg"} alt="" />
-                        <div className="frdes"></div>
+                        <div className="back_des">fe</div>
                     </a>
 
-                    <a href="https://greenwhale00.github.io/balmuda/" target="_blank" className='five name'>
+                    <a href="https://greenwhale00.github.io/balmuda/" target="_blank" className='five name back'>
                         <img src={process.env.PUBLIC_URL + "/assets/balmuda.jpg"} alt="" />
-                        <div className="frdes"></div>
+                        <div className="back_des">ge</div>
                     </a>
 
                     <Link to="/hyundai" className='six name'>
