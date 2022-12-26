@@ -45,13 +45,7 @@ const Main = () => {
                         <div className="frdes">현대</div>
                     </Link>
 
-                    <Link to="/" className='seven name'>
-                        <div className="frdes">get in touch</div>
-                    </Link>
 
-                    <Link to="/" className='eight name'>
-                        <div className="frdes">what i do</div>
-                    </Link>
 
                 </div>
             </div>
