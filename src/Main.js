@@ -41,8 +41,12 @@ const Main = () => {
                     </a>
 
                     <Link to="/hyundai" className='six name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/hyundai.jpg"} alt="" />
-                        <div className="frdes">현대</div>
+                        <img src={process.env.PUBLIC_URL + "/assets/hyundai.png"} alt="" />
+                        <ul>
+                            <li>react</li>
+                            <li>javascript</li>
+                            <li>jquery</li>
+                        </ul>
                     </Link>
 
 

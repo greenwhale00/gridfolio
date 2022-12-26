@@ -1,7 +1,3 @@
-// * {
-//     outline: 1px dashed pink;
-// }
-
 body {
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
@@ -194,7 +190,24 @@ body {
                 object-fit: cover;
                 height: 400px;
                 width: 100%;
+               filter: grayscale(0.7);
             } 
+
+            ul {
+                position: absolute;
+                display: flex;
+                gap: 30px;
+                bottom: 10%;
+                transform: translateX(-50%);
+                text-align: center;
+            
+                li {
+                    font-size: 21px;
+                }
+
+            }
+
+
         }
 
     }
