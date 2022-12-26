@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import Hyundai from './Hyundai';
-
 import { Route, Routes } from 'react-router-dom';
 
 import { FiArrowRightCircle } from "react-icons/fi";

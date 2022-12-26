@@ -1,24 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './css/works.scss'
 
 const Works = () => {
     return (
 
         <section className='Works'>
-            {/* 
-            <div className="inner">
-                <p className="first">
-                    All Works
-                </p>
-            </div> */}
-
 
             <div className="inner">
 
-                <p className="first">
-                    All Works
-                </p>
-
+                <p className="first">All Works</p>
 
                 <div className="whole">
 
@@ -35,9 +26,8 @@ const Works = () => {
                     </Link>
 
                     <Link to="/" className='four name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/hyundai.png"} alt="" />
                     </Link>
-
 
 
                 </div>
