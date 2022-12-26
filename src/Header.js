@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { FaBeer } from 'react-icons/fa';
 import NavMenu from './NavMenu';
 
 
 function Header() {
     return (
         <header className='Header'>
-
 
             <div className="inner">
                 <h1>
