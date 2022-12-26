@@ -1,7 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+
 import Hyundai from './Hyundai';
+
 import { Route, Routes } from 'react-router-dom';
+
+import { FiArrowRightCircle } from "react-icons/fi";
+
+
 const Main = () => {
     return (
         <section className='Main'>
@@ -26,17 +32,27 @@ const Main = () => {
 
                     <a href="https://greenwhale00.github.io/react_zegna/" target="_blank" className='three name back'>
                         <img src={process.env.PUBLIC_URL + "/assets/zegna.webp"} alt="" />
-                        <div className='back_des'>dd</div>
+                        <ul className='back_des'>
+                            <li>zegna</li>
+                            <li><FiArrowRightCircle /></li>
+
+                        </ul>
                     </a>
 
                     <a href="https://greenwhale00.github.io/kinfolk/" target="_blank" className='four name back'>
                         <img src={process.env.PUBLIC_URL + "/assets/kinfolk.jpg"} alt="" />
-                        <div className="back_des">fe</div>
+                        <ul className="back_des">
+                            <li>kinfolk</li>
+                            <li><FiArrowRightCircle /></li>
+                        </ul>
                     </a>
 
                     <a href="https://greenwhale00.github.io/balmuda/" target="_blank" className='five name back'>
                         <img src={process.env.PUBLIC_URL + "/assets/balmuda.jpg"} alt="" />
-                        <div className="back_des">ge</div>
+                        <ul className="back_des">
+                            <li>balmuda</li>
+                            <li><FiArrowRightCircle /></li>
+                        </ul>
                     </a>
 
                     <Link to="/hyundai" className='six name'>
