@@ -41,7 +41,7 @@ const Main = () => {
                     </a>
 
                     <Link to="/hyundai" className='six name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/hyundai.jpg"} alt="" />
                         <div className="frdes">현대</div>
                     </Link>
 
