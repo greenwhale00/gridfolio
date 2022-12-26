@@ -22,12 +22,11 @@ const Main = () => {
                             <span>Learn about me</span>
                             <p>See my resume</p>
                         </div>
-
                     </Link>
 
                     <a href="https://greenwhale00.github.io/react_zegna/" target="_blank" className='three name'>
                         <img src={process.env.PUBLIC_URL + "/assets/zegna.webp"} alt="" />
-                        <div className="frdes"></div>
+
                     </a>
 
                     <a href="https://greenwhale00.github.io/kinfolk/" target="_blank" className='four name'>
