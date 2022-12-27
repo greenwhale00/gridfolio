@@ -3,7 +3,6 @@
     margin-bottom: 50px;
 
     .inner {
-        //outline: 1px dashed lime;
 
          .first {
             // outline: 1px dashed lime;
@@ -52,6 +51,13 @@
                 grid-row: 2 / 3;
                 overflow: hidden;
                 height: 400px;
+
+                img {
+                    object-fit: cover;
+                    height: 400px;
+                    width: 100%;
+                   filter: grayscale(0.7);
+                } 
             }
 
         
