@@ -37,6 +37,12 @@
                 overflow: hidden;
                 height: 400px;
                 color: #f4f4f4;
+
+                div {
+                    position: absolute;
+                    bottom: 15%;
+                    left: 80px;;
+                }
             }
 
             .three {

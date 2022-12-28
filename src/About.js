@@ -19,8 +19,11 @@ const About = () => {
                     </li>
 
                     <li className='two name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/face.png"} className="face" alt="" />
-                        <h2>Hi.  I’m Hye-lim.</h2>
+                        <div>
+                            <h2>Hi.  I’m Hye-lim.</h2>
+                            <p>dddd</p>
+                        </div>
+
                     </li>
 
                     <li className='three name'>
@@ -29,10 +32,13 @@ const About = () => {
                     </li>
 
                     <li className='four name'>
-                        <h3>Education & Experience</h3>
-                        <p>
-                            [디지털컨버전스] 리엑트(React)활용 프론트엔드 개발자 양성과정
+                        <h3>Education</h3>
+                        <p>2008.03~2013.08 부산대학교 무역학과</p>
 
+                        <h3>Experience</h3>
+                        <p>
+                            2022.05~2022.11
+                            [디지털컨버전스] 리엑트(React)활용 프론트엔드 개발자 양성과정
                         </p>
                     </li>
 
