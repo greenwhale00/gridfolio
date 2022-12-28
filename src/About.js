@@ -12,24 +12,24 @@ const About = () => {
                     About Me
                 </p>
 
-                <div className="whole">
+                <ul className="whole">
 
-                    <Link to="/" className='one name'>
+                    <li className='one name'>
 
-                    </Link>
+                    </li>
 
-                    <Link to="/resume" className='two name'>
+                    <li className='two name'>
                         <img src={process.env.PUBLIC_URL + "/assets/face.png"} className="face" alt="" />
                         <span>Hi.  I’m Hye-lim.</span>
-                    </Link>
+                    </li>
 
-                    <Link to="/" className='three name'>
+                    <li className='three name'>
                         <img src={process.env.PUBLIC_URL + "/assets/balmuda.jpg"} alt="" />
-                    </Link>
+                    </li>
 
-                    <Link to="/" className='four name'>
+                    <li className='four name'>
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
-                    </Link>
+                    </li>
 
                     {/* <Link to="/" className='five name'>
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
@@ -47,7 +47,7 @@ const About = () => {
                     </Link> */}
 
 
-                </div>
+                </ul>
             </div>
         </section>
     )
