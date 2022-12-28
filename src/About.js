@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './css/about.scss'
 
 
 const About = () => {
@@ -14,11 +15,12 @@ const About = () => {
                 <div className="whole">
 
                     <Link to="/" className='one name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/zegna.webp"} alt="" />
+
                     </Link>
 
                     <Link to="/resume" className='two name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/kinfolk.jpg"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/face.png"} className="face" alt="" />
+                        <span>Hi.  I’m Hye-lim.</span>
                     </Link>
 
                     <Link to="/" className='three name'>
@@ -29,7 +31,7 @@ const About = () => {
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
                     </Link>
 
-                    <Link to="/" className='five name'>
+                    {/* <Link to="/" className='five name'>
                         <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
                     </Link>
 
@@ -42,7 +44,7 @@ const About = () => {
                             <span>Learn about me</span>
                             <p>See my resume</p>
                         </div>
-                    </Link>
+                    </Link> */}
 
 
                 </div>
