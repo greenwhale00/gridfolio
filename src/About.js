@@ -20,15 +20,16 @@ const About = () => {
 
                     <li className='two name'>
                         <img src={process.env.PUBLIC_URL + "/assets/face.png"} className="face" alt="" />
-                        <span>Hi.  I’m Hye-lim.</span>
+                        <h2>Hi.  I’m Hye-lim.</h2>
                     </li>
 
                     <li className='three name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/balmuda.jpg"} alt="" />
+                        <h3>About me</h3>
+                        <p>Hello! My name is Kim Hye-lim. </p>
                     </li>
 
                     <li className='four name'>
-                        <img src={process.env.PUBLIC_URL + "/assets/idontknow.webp"} alt="" />
+                        <h3>Education & Experience</h3>
                     </li>
 
                     {/* <Link to="/" className='five name'>
