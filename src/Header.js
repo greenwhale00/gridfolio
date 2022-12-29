@@ -18,7 +18,7 @@ function Header() {
                     <NavMenu />
                 </nav>
                 <div className='icon'>
-                    <a href="/">get in touch</a>
+                    <a href="/">github</a>
                 </div>
             </div>
 
