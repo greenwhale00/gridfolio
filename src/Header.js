@@ -18,7 +18,7 @@ function Header() {
                     <NavMenu />
                 </nav>
                 <div className='icon'>
-                    <a href="/">github</a>
+                    <a href="https://github.com/greenwhale00" target="_blank">github</a>
                 </div>
             </div>
 
