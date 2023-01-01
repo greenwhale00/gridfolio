@@ -23,7 +23,7 @@ const Main = () => {
 
                     <Link to="/resume" className='two name'>
                         <div className="des">
-                            <span>Learn about me</span>
+                            <span>Learn about me</span><span>💌</span>
                             <p>See my resume</p>
                         </div>
                     </Link>

@@ -118,10 +118,11 @@ body {
                 inset: auto auto 15% 15%;
 
                 span {
-                    display: block;
+                    display: inline-block;
                     font-size: 19px;
                     font-weight: 100;
                     margin-bottom: 10%;
+                    margin-right: 15px;
                 }
 
                 p {
