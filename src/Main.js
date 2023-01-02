@@ -17,7 +17,7 @@ const Main = () => {
                     <Link to="/about" className='one name'>
                         <div className="frdes title">
                             <img src={process.env.PUBLIC_URL + "/assets/face.png"} className="face" alt="" />
-                            <span>Hi.  I’m Hye-lim.</span>
+                            <span>Hi.  I’m Hye-lim.</span><span><FiArrowRightCircle /></span>
                         </div>
                     </Link>
 

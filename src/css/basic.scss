@@ -92,11 +92,7 @@ body {
             overflow: hidden;
             height: 400px;
 
-            .face {
-                width: 150px;
-                top: 15%;
-                left: 10%;
-            }
+           
 
             .title {
                 // outline: 1px dashed lime;
@@ -109,6 +105,17 @@ body {
                 bottom: 15%;
                 left: 80px;
                 font-weight: 700;
+
+                .face {
+                    width: 150px;
+                    top: 15%;
+                    left: 10%;
+                }
+                
+                span {
+                    display: inline-block;
+                    margin-right: 30px;
+                }
             }
         }
 
