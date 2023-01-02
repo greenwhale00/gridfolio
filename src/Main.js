@@ -16,8 +16,10 @@ const Main = () => {
 
                     <Link to="/about" className='one name'>
                         <div className="frdes title">
-                            <img src={process.env.PUBLIC_URL + "/assets/face.png"} className="face" alt="" />
-                            <span>Hi.  I’m Hye-lim.</span><span><FiArrowRightCircle /></span>
+                            <img src={process.env.PUBLIC_URL + "/assets/face.png"} alt="" />
+                            <h2>Hi.  I’m Hye-lim.</h2> <FiArrowRightCircle />
+                            <span>A frontend develper</span>
+
                         </div>
                     </Link>
 
@@ -65,6 +67,10 @@ const Main = () => {
 
 
                 </div>
+
+
+
+
             </div>
         </section >
     )
