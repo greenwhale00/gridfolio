@@ -53,14 +53,14 @@ const Main = () => {
                         </ul>
                     </a>
 
-                    <Link to="/hyundai" className='six name'>
+                    <div className='six name'>
                         <img src={process.env.PUBLIC_URL + "/assets/hyundai.png"} alt="" />
                         <ul>
-                            <li>react</li>
-                            <li>javascript</li>
-                            <li>jquery</li>
+                            <li><a href="">react</a></li>
+                            <li><a href="">javascript</a></li>
+                            <li><a href="">jquery</a></li>
                         </ul>
-                    </Link>
+                    </div>
 
 
 
