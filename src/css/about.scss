@@ -44,8 +44,9 @@
                     left: 50px;;
 
                     h2 {
-                        font-size: 35px;
-                        font-weight: 600;
+                        font-size: 55px;
+                        font-weight: 700;
+                        margin-bottom: 25px;
                     }
 
                     p {
@@ -60,6 +61,15 @@
                 grid-row: 2 / 3;
                 overflow: hidden;
                 height: 400px;
+
+                h3 {
+                    font-size: 35px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 17px;
+                }
             }
 
             .four {

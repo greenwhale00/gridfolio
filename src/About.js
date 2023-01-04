@@ -20,7 +20,7 @@ const About = () => {
 
                     <li className='two name'>
                         <div>
-                            <h2>Hi.  I’m Hye-lim.</h2>
+                            <h2>Hi.  I’m<br />Hye-lim.</h2>
                             <p>dddd</p>
                         </div>
 
