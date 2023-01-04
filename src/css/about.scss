@@ -1,3 +1,7 @@
+
+
+
+
 .About {
     color: #f4f4f4;
     margin-bottom: 50px;
@@ -77,6 +81,11 @@
                 grid-row: 2 / 3;
                 overflow: hidden;
                 height: 400px;
+
+                h3 {
+                    font-size: 35px;
+                    font-weight: 600;
+                }
             }
 
             // .five {
