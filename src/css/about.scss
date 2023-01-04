@@ -40,8 +40,18 @@
 
                 div {
                     position: absolute;
-                    bottom: 15%;
-                    left: 80px;;
+                    top: 15%;
+                    left: 50px;;
+
+                    h2 {
+                        font-size: 35px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 21px;
+                        font-weight: 300;
+                    }
                 }
             }
 
