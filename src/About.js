@@ -27,19 +27,28 @@ const About = () => {
                     </li>
 
                     <li className='three name'>
-                        <h3>About me</h3>
-                        <p>Hello! My name is Kim Hye-lim. </p>
+                        <ul>
+                            <li>About me</li>
+                            <li>Hello! My name is Kim Hye-lim. </li>
+                        </ul>
+
                     </li>
 
                     <li className='four name'>
-                        <h3>Education</h3>
-                        <p>2008.03~2013.08 부산대학교 무역학과</p>
 
-                        <h3>Experience</h3>
-                        <p>
-                            2022.05~2022.11
-                            [디지털컨버전스] 리엑트(React)활용 프론트엔드 개발자 양성과정
-                        </p>
+                        <ul>
+                            <li>Education</li>
+                            <li>2008.03~2013.08 부산대학교 무역학과</li>
+                        </ul>
+
+                        <ul>
+                            <li>Experience</li>
+                            <li>
+                                2022.05~2022.11
+                                [디지털컨버전스] 리엑트(React)활용 프론트엔드 개발자 양성과정
+                            </li>
+                        </ul>
+
                     </li>
 
                     {/* <Link to="/" className='five name'>
