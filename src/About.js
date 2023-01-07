@@ -35,19 +35,21 @@ const About = () => {
                     </li>
 
                     <li className='four name'>
+                        <div>
+                            <ul>
+                                <li>Education</li>
+                                <li>2008.03~2013.08 부산대학교 무역학과</li>
+                            </ul>
 
-                        <ul>
-                            <li>Education</li>
-                            <li>2008.03~2013.08 부산대학교 무역학과</li>
-                        </ul>
+                            <ul>
+                                <li>Experience</li>
+                                <li>
+                                    2022.05~2022.11
+                                    [디지털컨버전스] 리엑트(React)활용 프론트엔드 개발자 양성과정
+                                </li>
+                            </ul>
+                        </div>
 
-                        <ul>
-                            <li>Experience</li>
-                            <li>
-                                2022.05~2022.11
-                                [디지털컨버전스] 리엑트(React)활용 프론트엔드 개발자 양성과정
-                            </li>
-                        </ul>
 
                     </li>
 
