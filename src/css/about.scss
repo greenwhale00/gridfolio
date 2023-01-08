@@ -74,6 +74,12 @@
                 p {
                     font-size: 17px;
                 }
+
+                ul {
+                    position: absolute;
+                    top: 15%;
+                    left: 50px;;
+                }
             }
 
             .four {
@@ -81,6 +87,12 @@
                 grid-row: 2 / 3;
                 overflow: hidden;
                 height: 400px;
+
+                div {
+                    position: absolute;
+                    top: 15%;
+                    left: 50px;;
+                }
 
                 h3 {
                     font-size: 35px;
