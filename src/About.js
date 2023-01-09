@@ -36,11 +36,10 @@ const About = () => {
 
                     <li className='four name'>
                         <div>
-                            <ul>
-                                <h3>Education</h3>
 
-                                <li>2008.03~2013.08 부산대학교 무역학과</li>
-                            </ul>
+                            <h3>Education</h3>
+                            <p>2008.03~2013.08 부산대학교 무역학과</p>
+
 
                             <ul>
                                 <li>Experience</li>
