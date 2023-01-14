@@ -6,7 +6,7 @@ const Resume = () => {
         <section className='Resume'>
             <div className="inner">
                 <div className="left">
-                    ddd
+                    profile
                 </div>
                 <div className="right">
                     <h3>About me</h3>
