@@ -58,9 +58,9 @@ const Main = () => {
                     <div className='six name'>
                         <img src={process.env.PUBLIC_URL + "/assets/hyundai.png"} alt="" />
                         <ul>
-                            <li><a href="">react</a></li>
-                            <li><a href="">javascript</a></li>
-                            <li><a href="">jquery</a></li>
+                            <li><a href="" target="_blank">react</a></li>
+                            <li><a href="" target="_blank">javascript</a></li>
+                            <li><a href="" target="_blank">jquery</a></li>
                         </ul>
                     </div>
 
