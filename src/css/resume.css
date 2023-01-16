@@ -1,1 +1,1 @@
-.Resume .inner{display:grid}
+.Resume .inner{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:30px;grid-auto-rows:minmax(100px, auto)}
