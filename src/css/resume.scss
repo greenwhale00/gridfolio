@@ -9,8 +9,12 @@
             gap: 30px;
             grid-auto-rows: minmax(100px, auto);
 
-                   .left {
+            .left {
             position: absolute;
+
+            .right {
+                position: absolute;
+            }
         } 
         }
 
