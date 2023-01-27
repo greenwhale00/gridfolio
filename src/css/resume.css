@@ -1,1 +1,1 @@
-.Resume .inner{position:relative}.Resume .inner .whole{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:30px;grid-auto-rows:minmax(100px, auto)}.Resume .inner .whole .left{position:absolute}.Resume .inner .whole .left .right{position:absolute}
+.Resume .inner{position:relative}.Resume .inner .whole{display:flex;gap:30px}.Resume .inner .whole .left{position:sticky}
